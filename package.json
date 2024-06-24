@@ -1,0 +1,25 @@
+{
+  "name": "lyndon-cli",
+  "version": "1.0.0",
+  "description": "best practices for engineering problems",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyndon-graffiti/lyndon-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "react",
+    "template",
+    "toolchain"
+  ],
+  "author": "xianzhiwu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lyndon-graffiti/lyndon-cli/issues"
+  },
+  "homepage": "https://github.com/lyndon-graffiti/lyndon-cli#readme"
+}
