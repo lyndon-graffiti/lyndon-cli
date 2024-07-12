@@ -1,0 +1,949 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  chalk:
+    specifier: ^5.3.0
+    version: 5.3.0
+  commander:
+    specifier: ^12.1.0
+    version: 12.1.0
+  download-git-repo:
+    specifier: ^3.0.2
+    version: 3.0.2
+  figlet:
+    specifier: ^1.7.0
+    version: 1.7.0
+  fs-extra:
+    specifier: ^11.2.0
+    version: 11.2.0
+  ora:
+    specifier: ^8.0.1
+    version: 8.0.1
+
+packages:
+
+  /@sindresorhus/is@0.7.0:
+    resolution: {integrity: sha1-mgb08TfuhNffBGDB/bETX/psUP0=, tarball: http://registry.npm.release.ctripcorp.com/@sindresorhus/is/download/@sindresorhus/is-0.7.0.tgz}
+    engines: {node: '>=4'}
+    dev: false
+
+  /@types/keyv@3.1.4:
+    resolution: {integrity: sha1-PM2xxnUbDH5SMAvNrNW8v4+qdbY=, tarball: http://registry.npm.release.ctripcorp.com/@types/keyv/download/@types/keyv-3.1.4.tgz}
+    dependencies:
+      '@types/node': 20.14.10
+    dev: false
+
+  /@types/node@20.14.10:
+    resolution: {integrity: sha1-oaIYKQ8bZChoLjrwRHheWHTbRpo=, tarball: http://registry.npm.release.ctripcorp.com/@types/node/download/@types/node-20.14.10.tgz}
+    dependencies:
+      undici-types: 5.26.5
+    dev: false
+
+  /@types/responselike@1.0.3:
+    resolution: {integrity: sha1-zClwbwo5fP5t+J3r/kv1zqFZ21A=, tarball: http://registry.npm.release.ctripcorp.com/@types/responselike/download/@types/responselike-1.0.3.tgz}
+    dependencies:
+      '@types/node': 20.14.10
+    dev: false
+
+  /ansi-regex@6.0.1:
+    resolution: {integrity: sha1-MYPjj66aZdfLXlOUXNWJfQJgoGo=, tarball: http://registry.npm.release.ctripcorp.com/ansi-regex/download/ansi-regex-6.0.1.tgz}
+    engines: {node: '>=12'}
+    dev: false
+
+  /archive-type@4.0.0:
+    resolution: {integrity: sha1-+S5yIzBW38aWlHJ0nCZ72wRrHXA=, tarball: http://registry.npm.release.ctripcorp.com/archive-type/download/archive-type-4.0.0.tgz}
+    engines: {node: '>=4'}
+    dependencies:
+      file-type: 4.4.0
+    dev: false
+
+  /balanced-match@1.0.2:
+    resolution: {integrity: sha1-6D46fj8wCzTLnYf2FfoMvzV2kO4=, tarball: http://registry.npm.release.ctripcorp.com/balanced-match/download/balanced-match-1.0.2.tgz}
+    dev: false
+
+  /base64-js@1.5.1:
+    resolution: {integrity: sha1-GxtEAWClv3rUC2UPCVljSBkDkwo=, tarball: http://registry.npm.release.ctripcorp.com/base64-js/download/base64-js-1.5.1.tgz}
+    dev: false
+
+  /bl@1.2.3:
+    resolution: {integrity: sha1-Ho3YAULqyA1xWMnczAR/tiDgNec=, tarball: http://registry.npm.release.ctripcorp.com/bl/download/bl-1.2.3.tgz}
+    dependencies:
+      readable-stream: 2.3.8
+      safe-buffer: 5.2.1
+    dev: false
+
+  /brace-expansion@1.1.11:
+    resolution: {integrity: sha1-PH/L9SnYcibz0vUrlm/1Jx60Qd0=, tarball: http://registry.npm.release.ctripcorp.com/brace-expansion/download/brace-expansion-1.1.11.tgz}
+    dependencies:
+      balanced-match: 1.0.2
+      concat-map: 0.0.1
+    dev: false
+
+  /buffer-alloc-unsafe@1.1.0:
+    resolution: {integrity: sha1-vX3CauKXLQ7aJTvgYdupkjScGfA=, tarball: http://registry.npm.release.ctripcorp.com/buffer-alloc-unsafe/download/buffer-alloc-unsafe-1.1.0.tgz}
+    dev: false
+
+  /buffer-alloc@1.2.0:
+    resolution: {integrity: sha1-iQ3ZDZI6hz4I4Q5f1RpX5bfM4Ow=, tarball: http://registry.npm.release.ctripcorp.com/buffer-alloc/download/buffer-alloc-1.2.0.tgz}
+    dependencies:
+      buffer-alloc-unsafe: 1.1.0
+      buffer-fill: 1.0.0
+    dev: false
+
+  /buffer-crc32@0.2.13:
+    resolution: {integrity: sha1-DTM+PwDqxQqhRUq9MO+MKl2ackI=, tarball: http://registry.npm.release.ctripcorp.com/buffer-crc32/download/buffer-crc32-0.2.13.tgz}
+    dev: false
+
+  /buffer-fill@1.0.0:
+    resolution: {integrity: sha1-+PeLdniYiO858gXNY39o5wISKyw=, tarball: http://registry.npm.release.ctripcorp.com/buffer-fill/download/buffer-fill-1.0.0.tgz}
+    dev: false
+
+  /buffer@5.7.1:
+    resolution: {integrity: sha1-umLnwTEzBTWCGXFghRqPZI6Z7tA=, tarball: http://registry.npm.release.ctripcorp.com/buffer/download/buffer-5.7.1.tgz}
+    dependencies:
+      base64-js: 1.5.1
+      ieee754: 1.2.1
+    dev: false
+
+  /cacheable-request@2.1.4:
+    resolution: {integrity: sha1-DYCIAbY0KtM8kd+dC0TcCbkeXD0=, tarball: http://registry.npm.release.ctripcorp.com/cacheable-request/download/cacheable-request-2.1.4.tgz}
+    dependencies:
+      clone-response: 1.0.2
+      get-stream: 3.0.0
+      http-cache-semantics: 3.8.1
+      keyv: 3.0.0
+      lowercase-keys: 1.0.0
+      normalize-url: 2.0.1
+      responselike: 1.0.2
+    dev: false
+
+  /caw@2.0.1:
+    resolution: {integrity: sha1-bDygcfwZRyCIPC3F2psHS/x+npU=, tarball: http://registry.npm.release.ctripcorp.com/caw/download/caw-2.0.1.tgz}
+    engines: {node: '>=4'}
+    dependencies:
+      get-proxy: 2.1.0
+      isurl: 1.0.0
+      tunnel-agent: 0.6.0
+      url-to-options: 1.0.1
+    dev: false
+
+  /chalk@5.3.0:
+    resolution: {integrity: sha1-Z8IKfr73Dn85cKAfkPohDLaGA4U=, tarball: http://registry.npm.release.ctripcorp.com/chalk/download/chalk-5.3.0.tgz}
+    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
+    dev: false
+
+  /cli-cursor@4.0.0:
+    resolution: {integrity: sha1-POz+NzS/T+Aqg2HL3A9v4oxqV+o=, tarball: http://registry.npm.release.ctripcorp.com/cli-cursor/download/cli-cursor-4.0.0.tgz}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+    dependencies:
+      restore-cursor: 4.0.0
+    dev: false
+
+  /cli-spinners@2.9.2:
+    resolution: {integrity: sha1-F3Oo9LnE1qwxVj31Oz/B15Ri/kE=, tarball: http://registry.npm.release.ctripcorp.com/cli-spinners/download/cli-spinners-2.9.2.tgz}
+    engines: {node: '>=6'}
+    dev: false
+
+  /clone-response@1.0.2:
+    resolution: {integrity: sha1-0dyXOSAxTfZ/vrlCI7TuNQI56Ws=, tarball: http://registry.npm.release.ctripcorp.com/clone-response/download/clone-response-1.0.2.tgz}
+    dependencies:
+      mimic-response: 1.0.1
+    dev: false
+
+  /commander@12.1.0:
+    resolution: {integrity: sha1-AUI7NvUBJZ/arE0OTWDJbJkVhdM=, tarball: http://registry.npm.release.ctripcorp.com/commander/download/commander-12.1.0.tgz}
+    engines: {node: '>=18'}
+    dev: false
+
+  /commander@2.20.3:
+    resolution: {integrity: sha1-/UhehMA+tIgcIHIrpIA16FMa6zM=, tarball: http://registry.npm.release.ctripcorp.com/commander/download/commander-2.20.3.tgz}
+    dev: false
+
+  /concat-map@0.0.1:
+    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=, tarball: http://registry.npm.release.ctripcorp.com/concat-map/download/concat-map-0.0.1.tgz}
+    dev: false
+
+  /config-chain@1.1.13:
+    resolution: {integrity: sha1-+tB5Wqamza/57Rto6d/5Q3LCMvQ=, tarball: http://registry.npm.release.ctripcorp.com/config-chain/download/config-chain-1.1.13.tgz}
+    dependencies:
+      ini: 1.3.8
+      proto-list: 1.2.4
+    dev: false
+
+  /content-disposition@0.5.4:
+    resolution: {integrity: sha1-i4K076yCUSoCuwsdzsnSxejrW/4=, tarball: http://registry.npm.release.ctripcorp.com/content-disposition/download/content-disposition-0.5.4.tgz}
+    engines: {node: '>= 0.6'}
+    dependencies:
+      safe-buffer: 5.2.1
+    dev: false
+
+  /core-util-is@1.0.3:
+    resolution: {integrity: sha1-pgQtNjTCsn6TKPg3uWX6yDgI24U=, tarball: http://registry.npm.release.ctripcorp.com/core-util-is/download/core-util-is-1.0.3.tgz}
+    dev: false
+
+  /decode-uri-component@0.2.2:
+    resolution: {integrity: sha1-5p2+JdN5QRcd1UDgJMREzVGI4ek=, tarball: http://registry.npm.release.ctripcorp.com/decode-uri-component/download/decode-uri-component-0.2.2.tgz}
+    engines: {node: '>=0.10'}
+    dev: false
+
+  /decompress-response@3.3.0:
+    resolution: {integrity: sha1-gKTdMjdIOEv6JICDYirt7Jgq3/M=, tarball: http://registry.npm.release.ctripcorp.com/decompress-response/download/decompress-response-3.3.0.tgz}
+    engines: {node: '>=4'}
+    dependencies:
+      mimic-response: 1.0.1
+    dev: false
+
+  /decompress-tar@4.1.1:
+    resolution: {integrity: sha1-cYy9P8sWIJcW5womuE57pFkuWvE=, tarball: http://registry.npm.release.ctripcorp.com/decompress-tar/download/decompress-tar-4.1.1.tgz}
+    engines: {node: '>=4'}
+    dependencies:
+      file-type: 5.2.0
+      is-stream: 1.1.0
+      tar-stream: 1.6.2
+    dev: false
+
+  /decompress-tarbz2@4.1.1:
+    resolution: {integrity: sha1-MIKluIDqQEOBY0nzeLVsUWvho5s=, tarball: http://registry.npm.release.ctripcorp.com/decompress-tarbz2/download/decompress-tarbz2-4.1.1.tgz}
+    engines: {node: '>=4'}
+    dependencies:
+      decompress-tar: 4.1.1
+      file-type: 6.2.0
+      is-stream: 1.1.0
+      seek-bzip: 1.0.6
+      unbzip2-stream: 1.4.3
+    dev: false
+
+  /decompress-targz@4.1.1:
+    resolution: {integrity: sha1-wJvDXE0R894J8tLaU+neI+fOHu4=, tarball: http://registry.npm.release.ctripcorp.com/decompress-targz/download/decompress-targz-4.1.1.tgz}
+    engines: {node: '>=4'}
+    dependencies:
+      decompress-tar: 4.1.1
+      file-type: 5.2.0
+      is-stream: 1.1.0
+    dev: false
+
+  /decompress-unzip@4.0.1:
+    resolution: {integrity: sha1-3qrM39FK6vhVePczroIQ+bSEj2k=, tarball: http://registry.npm.release.ctripcorp.com/decompress-unzip/download/decompress-unzip-4.0.1.tgz}
+    engines: {node: '>=4'}
+    dependencies:
+      file-type: 3.9.0
+      get-stream: 2.3.1
+      pify: 2.3.0
+      yauzl: 2.10.0
+    dev: false
+
+  /decompress@4.2.1:
+    resolution: {integrity: sha1-AH9VzGpiwFWvo3wH62pO4bdz8Rg=, tarball: http://registry.npm.release.ctripcorp.com/decompress/download/decompress-4.2.1.tgz}
+    engines: {node: '>=4'}
+    dependencies:
+      decompress-tar: 4.1.1
+      decompress-tarbz2: 4.1.1
+      decompress-targz: 4.1.1
+      decompress-unzip: 4.0.1
+      graceful-fs: 4.2.11
+      make-dir: 1.3.0
+      pify: 2.3.0
+      strip-dirs: 2.1.0
+    dev: false
+
+  /download-git-repo@3.0.2:
+    resolution: {integrity: sha1-jKriT7Kr1kUxct7qVhkDYCTxkPY=, tarball: http://registry.npm.release.ctripcorp.com/download-git-repo/download/download-git-repo-3.0.2.tgz}
+    dependencies:
+      download: 7.1.0
+      git-clone: 0.1.0
+      rimraf: 3.0.2
+    dev: false
+
+  /download@7.1.0:
+    resolution: {integrity: sha1-kFmqnXC1A+52oTKJe+beyOVYcjM=, tarball: http://registry.npm.release.ctripcorp.com/download/download/download-7.1.0.tgz}
+    engines: {node: '>=6'}
+    dependencies:
+      archive-type: 4.0.0
+      caw: 2.0.1
+      content-disposition: 0.5.4
+      decompress: 4.2.1
+      ext-name: 5.0.0
+      file-type: 8.1.0
+      filenamify: 2.1.0
+      get-stream: 3.0.0
+      got: 8.3.2
+      make-dir: 1.3.0
+      p-event: 2.3.1
+      pify: 3.0.0
+    dev: false
+
+  /duplexer3@0.1.5:
+    resolution: {integrity: sha1-C15Ne61d6JAepEQGJMjh0gCZIX4=, tarball: http://registry.npm.release.ctripcorp.com/duplexer3/download/duplexer3-0.1.5.tgz}
+    dev: false
+
+  /emoji-regex@10.3.0:
+    resolution: {integrity: sha1-dpmLkmhAnrPa496YklTUVucM/iM=, tarball: http://registry.npm.release.ctripcorp.com/emoji-regex/download/emoji-regex-10.3.0.tgz}
+    dev: false
+
+  /end-of-stream@1.4.4:
+    resolution: {integrity: sha1-WuZKX0UFe682JuwU2gyl5LJDHrA=, tarball: http://registry.npm.release.ctripcorp.com/end-of-stream/download/end-of-stream-1.4.4.tgz}
+    dependencies:
+      once: 1.4.0
+    dev: false
+
+  /escape-string-regexp@1.0.5:
+    resolution: {integrity: sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=, tarball: http://registry.npm.release.ctripcorp.com/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz}
+    engines: {node: '>=0.8.0'}
+    dev: false
+
+  /ext-list@2.2.2:
+    resolution: {integrity: sha1-C5jmTtgvWs8PKTG6v2khLvUt3Tc=, tarball: http://registry.npm.release.ctripcorp.com/ext-list/download/ext-list-2.2.2.tgz}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      mime-db: 1.52.0
+    dev: false
+
+  /ext-name@5.0.0:
+    resolution: {integrity: sha1-cHgZgdGD7hXROZPIgiBFxQbI8KY=, tarball: http://registry.npm.release.ctripcorp.com/ext-name/download/ext-name-5.0.0.tgz}
+    engines: {node: '>=4'}
+    dependencies:
+      ext-list: 2.2.2
+      sort-keys-length: 1.0.1
+    dev: false
+
+  /fd-slicer@1.1.0:
+    resolution: {integrity: sha1-JcfInLH5B3+IkbvmHY85Dq4lbx4=, tarball: http://registry.npm.release.ctripcorp.com/fd-slicer/download/fd-slicer-1.1.0.tgz}
+    dependencies:
+      pend: 1.2.0
+    dev: false
+
+  /figlet@1.7.0:
+    resolution: {integrity: sha1-RpA6BGA/0Zw+OANYQYuycDWHpy4=, tarball: http://registry.npm.release.ctripcorp.com/figlet/download/figlet-1.7.0.tgz}
+    engines: {node: '>= 0.4.0'}
+    hasBin: true
+    dev: false
+
+  /file-type@3.9.0:
+    resolution: {integrity: sha1-JXoHg4TR24CHvESdEH1SpSZyuek=, tarball: http://registry.npm.release.ctripcorp.com/file-type/download/file-type-3.9.0.tgz}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /file-type@4.4.0:
+    resolution: {integrity: sha1-G2AOX8ofvcboDApwxxyNul95BsU=, tarball: http://registry.npm.release.ctripcorp.com/file-type/download/file-type-4.4.0.tgz}
+    engines: {node: '>=4'}
+    dev: false
+
+  /file-type@5.2.0:
+    resolution: {integrity: sha1-LdvqfHP/42No365J3DOMBYwritY=, tarball: http://registry.npm.release.ctripcorp.com/file-type/download/file-type-5.2.0.tgz}
+    engines: {node: '>=4'}
+    dev: false
+
+  /file-type@6.2.0:
+    resolution: {integrity: sha1-5QzXXTVv/tTjBtxPW89Sp5kDqRk=, tarball: http://registry.npm.release.ctripcorp.com/file-type/download/file-type-6.2.0.tgz}
+    engines: {node: '>=4'}
+    dev: false
+
+  /file-type@8.1.0:
+    resolution: {integrity: sha1-JE87fvZBu+DMoZbHJ25LMyOZ9ow=, tarball: http://registry.npm.release.ctripcorp.com/file-type/download/file-type-8.1.0.tgz}
+    engines: {node: '>=6'}
+    dev: false
+
+  /filename-reserved-regex@2.0.0:
+    resolution: {integrity: sha1-q/c9+rc10EVECr/qLZHzieu/oik=, tarball: http://registry.npm.release.ctripcorp.com/filename-reserved-regex/download/filename-reserved-regex-2.0.0.tgz}
+    engines: {node: '>=4'}
+    dev: false
+
+  /filenamify@2.1.0:
+    resolution: {integrity: sha1-iPr0lfsbR6v9YSMAACoWIoxnfuk=, tarball: http://registry.npm.release.ctripcorp.com/filenamify/download/filenamify-2.1.0.tgz}
+    engines: {node: '>=4'}
+    dependencies:
+      filename-reserved-regex: 2.0.0
+      strip-outer: 1.0.1
+      trim-repeated: 1.0.0
+    dev: false
+
+  /from2@2.3.0:
+    resolution: {integrity: sha1-i/tVAr3kpNNs/e6gB/zKIdfjgq8=, tarball: http://registry.npm.release.ctripcorp.com/from2/download/from2-2.3.0.tgz}
+    dependencies:
+      inherits: 2.0.4
+      readable-stream: 2.3.8
+    dev: false
+
+  /fs-constants@1.0.0:
+    resolution: {integrity: sha1-a+Dem+mYzhavivwkSXue6bfM2a0=, tarball: http://registry.npm.release.ctripcorp.com/fs-constants/download/fs-constants-1.0.0.tgz}
+    dev: false
+
+  /fs-extra@11.2.0:
+    resolution: {integrity: sha1-5w4X361kIyKH0BkpOZ4Op8hrDls=, tarball: http://registry.npm.release.ctripcorp.com/fs-extra/download/fs-extra-11.2.0.tgz}
+    engines: {node: '>=14.14'}
+    dependencies:
+      graceful-fs: 4.2.11
+      jsonfile: 6.1.0
+      universalify: 2.0.1
+    dev: false
+
+  /fs.realpath@1.0.0:
+    resolution: {integrity: sha1-FQStJSMVjKpA20onh8sBQRmU6k8=, tarball: http://registry.npm.release.ctripcorp.com/fs.realpath/download/fs.realpath-1.0.0.tgz}
+    dev: false
+
+  /get-east-asian-width@1.2.0:
+    resolution: {integrity: sha1-Xm69m67m+4t7a9UFIhBl8M2R9k4=, tarball: http://registry.npm.release.ctripcorp.com/get-east-asian-width/download/get-east-asian-width-1.2.0.tgz}
+    engines: {node: '>=18'}
+    dev: false
+
+  /get-proxy@2.1.0:
+    resolution: {integrity: sha1-NJ8rTZHUTE1NTpy6KtkBQ/rF75M=, tarball: http://registry.npm.release.ctripcorp.com/get-proxy/download/get-proxy-2.1.0.tgz}
+    engines: {node: '>=4'}
+    dependencies:
+      npm-conf: 1.1.3
+    dev: false
+
+  /get-stream@2.3.1:
+    resolution: {integrity: sha1-Xzj5PzRgCWZu4BUKBUFn+Rvdld4=, tarball: http://registry.npm.release.ctripcorp.com/get-stream/download/get-stream-2.3.1.tgz}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      object-assign: 4.1.1
+      pinkie-promise: 2.0.1
+    dev: false
+
+  /get-stream@3.0.0:
+    resolution: {integrity: sha1-jpQ9E1jcN1VQVOy+LtsFqhdO3hQ=, tarball: http://registry.npm.release.ctripcorp.com/get-stream/download/get-stream-3.0.0.tgz}
+    engines: {node: '>=4'}
+    dev: false
+
+  /git-clone@0.1.0:
+    resolution: {integrity: sha1-DXYWN3gJOu9/HDAjjyqe8/B6Lrk=, tarball: http://registry.npm.release.ctripcorp.com/git-clone/download/git-clone-0.1.0.tgz}
+    dev: false
+
+  /glob@7.2.3:
+    resolution: {integrity: sha1-uN8PuAK7+o6JvR2Ti04WV47UTys=, tarball: http://registry.npm.release.ctripcorp.com/glob/download/glob-7.2.3.tgz}
+    deprecated: Glob versions prior to v9 are no longer supported
+    dependencies:
+      fs.realpath: 1.0.0
+      inflight: 1.0.6
+      inherits: 2.0.4
+      minimatch: 3.1.2
+      once: 1.4.0
+      path-is-absolute: 1.0.1
+    dev: false
+
+  /got@8.3.2:
+    resolution: {integrity: sha1-HSP2Q5Dpf3dsrFLluTbl9RTS6Tc=, tarball: http://registry.npm.release.ctripcorp.com/got/download/got-8.3.2.tgz}
+    engines: {node: '>=4'}
+    dependencies:
+      '@sindresorhus/is': 0.7.0
+      '@types/keyv': 3.1.4
+      '@types/responselike': 1.0.3
+      cacheable-request: 2.1.4
+      decompress-response: 3.3.0
+      duplexer3: 0.1.5
+      get-stream: 3.0.0
+      into-stream: 3.1.0
+      is-retry-allowed: 1.2.0
+      isurl: 1.0.0
+      lowercase-keys: 1.0.1
+      mimic-response: 1.0.1
+      p-cancelable: 0.4.1
+      p-timeout: 2.0.1
+      pify: 3.0.0
+      safe-buffer: 5.2.1
+      timed-out: 4.0.1
+      url-parse-lax: 3.0.0
+      url-to-options: 1.0.1
+    dev: false
+
+  /graceful-fs@4.2.11:
+    resolution: {integrity: sha1-QYPk6L8Iu24Fu7L30uDI9xLKQOM=, tarball: http://registry.npm.release.ctripcorp.com/graceful-fs/download/graceful-fs-4.2.11.tgz}
+    dev: false
+
+  /has-symbol-support-x@1.4.2:
+    resolution: {integrity: sha1-FAn5i8ACR9pF2mfO4KNvKC/yZFU=, tarball: http://registry.npm.release.ctripcorp.com/has-symbol-support-x/download/has-symbol-support-x-1.4.2.tgz}
+    dev: false
+
+  /has-to-string-tag-x@1.4.1:
+    resolution: {integrity: sha1-oEWrOD17SyASoAFIqwql8pAETU0=, tarball: http://registry.npm.release.ctripcorp.com/has-to-string-tag-x/download/has-to-string-tag-x-1.4.1.tgz}
+    dependencies:
+      has-symbol-support-x: 1.4.2
+    dev: false
+
+  /http-cache-semantics@3.8.1:
+    resolution: {integrity: sha1-ObDhat2bYFvwqe89nar0hDtMrNI=, tarball: http://registry.npm.release.ctripcorp.com/http-cache-semantics/download/http-cache-semantics-3.8.1.tgz}
+    dev: false
+
+  /ieee754@1.2.1:
+    resolution: {integrity: sha1-jrehCmP/8l0VpXsAFYbRd9Gw01I=, tarball: http://registry.npm.release.ctripcorp.com/ieee754/download/ieee754-1.2.1.tgz}
+    dev: false
+
+  /inflight@1.0.6:
+    resolution: {integrity: sha1-Sb1jMdfQLQwJvJEKEHW6gWW1bfk=, tarball: http://registry.npm.release.ctripcorp.com/inflight/download/inflight-1.0.6.tgz}
+    dependencies:
+      once: 1.4.0
+      wrappy: 1.0.2
+    dev: false
+
+  /inherits@2.0.4:
+    resolution: {integrity: sha1-D6LGT5MpF8NDOg3tVTY6rjdBa3w=, tarball: http://registry.npm.release.ctripcorp.com/inherits/download/inherits-2.0.4.tgz}
+    dev: false
+
+  /ini@1.3.8:
+    resolution: {integrity: sha1-op2kJbSIBvNHZ6Tvzjlyaa8oQyw=, tarball: http://registry.npm.release.ctripcorp.com/ini/download/ini-1.3.8.tgz}
+    dev: false
+
+  /into-stream@3.1.0:
+    resolution: {integrity: sha1-lvsKk2wSur1v8XUqF9BWFqvQlMY=, tarball: http://registry.npm.release.ctripcorp.com/into-stream/download/into-stream-3.1.0.tgz}
+    engines: {node: '>=4'}
+    dependencies:
+      from2: 2.3.0
+      p-is-promise: 1.1.0
+    dev: false
+
+  /is-interactive@2.0.0:
+    resolution: {integrity: sha1-QMV2FFk4JtoRAK3mBZd41ZfxbpA=, tarball: http://registry.npm.release.ctripcorp.com/is-interactive/download/is-interactive-2.0.0.tgz}
+    engines: {node: '>=12'}
+    dev: false
+
+  /is-natural-number@4.0.1:
+    resolution: {integrity: sha1-q5124dtM7VHjXeDHLr7PCfc0zeg=, tarball: http://registry.npm.release.ctripcorp.com/is-natural-number/download/is-natural-number-4.0.1.tgz}
+    dev: false
+
+  /is-object@1.0.2:
+    resolution: {integrity: sha1-pWVS4cZlyelQtKAlRh2ofnL4b88=, tarball: http://registry.npm.release.ctripcorp.com/is-object/download/is-object-1.0.2.tgz}
+    dev: false
+
+  /is-plain-obj@1.1.0:
+    resolution: {integrity: sha1-caUMhCnfync8kqOQpKA7OfzVHT4=, tarball: http://registry.npm.release.ctripcorp.com/is-plain-obj/download/is-plain-obj-1.1.0.tgz}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /is-retry-allowed@1.2.0:
+    resolution: {integrity: sha1-13hIi9CkZmo76KFIK58rqv7eqLQ=, tarball: http://registry.npm.release.ctripcorp.com/is-retry-allowed/download/is-retry-allowed-1.2.0.tgz}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /is-stream@1.1.0:
+    resolution: {integrity: sha1-EtSj3U5o4Lec6428hBc66A2RykQ=, tarball: http://registry.npm.release.ctripcorp.com/is-stream/download/is-stream-1.1.0.tgz}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /is-unicode-supported@1.3.0:
+    resolution: {integrity: sha1-2CSYS2FsKSouGYIH1KYJmDhC9xQ=, tarball: http://registry.npm.release.ctripcorp.com/is-unicode-supported/download/is-unicode-supported-1.3.0.tgz}
+    engines: {node: '>=12'}
+    dev: false
+
+  /is-unicode-supported@2.0.0:
+    resolution: {integrity: sha1-/fMt+a6Y/2qyztwVWlpuiVcBxFE=, tarball: http://registry.npm.release.ctripcorp.com/is-unicode-supported/download/is-unicode-supported-2.0.0.tgz}
+    engines: {node: '>=18'}
+    dev: false
+
+  /isarray@1.0.0:
+    resolution: {integrity: sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=, tarball: http://registry.npm.release.ctripcorp.com/isarray/download/isarray-1.0.0.tgz}
+    dev: false
+
+  /isurl@1.0.0:
+    resolution: {integrity: sha1-sn9PSfPNqj6kSgpbfzRi5u3DnWc=, tarball: http://registry.npm.release.ctripcorp.com/isurl/download/isurl-1.0.0.tgz}
+    engines: {node: '>= 4'}
+    dependencies:
+      has-to-string-tag-x: 1.4.1
+      is-object: 1.0.2
+    dev: false
+
+  /json-buffer@3.0.0:
+    resolution: {integrity: sha1-Wx85evx11ne96Lz8Dkfh+aPZqJg=, tarball: http://registry.npm.release.ctripcorp.com/json-buffer/download/json-buffer-3.0.0.tgz}
+    dev: false
+
+  /jsonfile@6.1.0:
+    resolution: {integrity: sha1-vFWyY0eTxnnsZAMJTrE2mKbsCq4=, tarball: http://registry.npm.release.ctripcorp.com/jsonfile/download/jsonfile-6.1.0.tgz}
+    dependencies:
+      universalify: 2.0.1
+    optionalDependencies:
+      graceful-fs: 4.2.11
+    dev: false
+
+  /keyv@3.0.0:
+    resolution: {integrity: sha1-RJI7o55osSp87H32wyaMAx8u83M=, tarball: http://registry.npm.release.ctripcorp.com/keyv/download/keyv-3.0.0.tgz}
+    dependencies:
+      json-buffer: 3.0.0
+    dev: false
+
+  /log-symbols@6.0.0:
+    resolution: {integrity: sha1-u5Xl8FMiZRysMMD+tkBPnyqKlDk=, tarball: http://registry.npm.release.ctripcorp.com/log-symbols/download/log-symbols-6.0.0.tgz}
+    engines: {node: '>=18'}
+    dependencies:
+      chalk: 5.3.0
+      is-unicode-supported: 1.3.0
+    dev: false
+
+  /lowercase-keys@1.0.0:
+    resolution: {integrity: sha1-TjNms55/VFfjXxMkvfb4jQv8cwY=, tarball: http://registry.npm.release.ctripcorp.com/lowercase-keys/download/lowercase-keys-1.0.0.tgz}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /lowercase-keys@1.0.1:
+    resolution: {integrity: sha1-b54wtHCE2XGnyCD/FabFFnt0wm8=, tarball: http://registry.npm.release.ctripcorp.com/lowercase-keys/download/lowercase-keys-1.0.1.tgz}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /make-dir@1.3.0:
+    resolution: {integrity: sha1-ecEDO4BRW9bSTsmTPoYMp17ifww=, tarball: http://registry.npm.release.ctripcorp.com/make-dir/download/make-dir-1.3.0.tgz}
+    engines: {node: '>=4'}
+    dependencies:
+      pify: 3.0.0
+    dev: false
+
+  /mime-db@1.52.0:
+    resolution: {integrity: sha1-u6vNwChZ9JhzAchW4zh85exDv3A=, tarball: http://registry.npm.release.ctripcorp.com/mime-db/download/mime-db-1.52.0.tgz}
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  /mimic-fn@2.1.0:
+    resolution: {integrity: sha1-ftLCzMyvhNP/y3pptXcR/CCDQBs=, tarball: http://registry.npm.release.ctripcorp.com/mimic-fn/download/mimic-fn-2.1.0.tgz}
+    engines: {node: '>=6'}
+    dev: false
+
+  /mimic-response@1.0.1:
+    resolution: {integrity: sha1-SSNTiHju9CBjy4o+OweYeBSHqxs=, tarball: http://registry.npm.release.ctripcorp.com/mimic-response/download/mimic-response-1.0.1.tgz}
+    engines: {node: '>=4'}
+    dev: false
+
+  /minimatch@3.1.2:
+    resolution: {integrity: sha1-Gc0ZS/0+Qo8EmnCBfAONiatL41s=, tarball: http://registry.npm.release.ctripcorp.com/minimatch/download/minimatch-3.1.2.tgz}
+    dependencies:
+      brace-expansion: 1.1.11
+    dev: false
+
+  /normalize-url@2.0.1:
+    resolution: {integrity: sha1-g1qdoVUfom9w6SMpBpojqmV01+Y=, tarball: http://registry.npm.release.ctripcorp.com/normalize-url/download/normalize-url-2.0.1.tgz}
+    engines: {node: '>=4'}
+    dependencies:
+      prepend-http: 2.0.0
+      query-string: 5.1.1
+      sort-keys: 2.0.0
+    dev: false
+
+  /npm-conf@1.1.3:
+    resolution: {integrity: sha1-JWzEe9DiGMJZxOlVC/QTvCGSr/k=, tarball: http://registry.npm.release.ctripcorp.com/npm-conf/download/npm-conf-1.1.3.tgz}
+    engines: {node: '>=4'}
+    dependencies:
+      config-chain: 1.1.13
+      pify: 3.0.0
+    dev: false
+
+  /object-assign@4.1.1:
+    resolution: {integrity: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=, tarball: http://registry.npm.release.ctripcorp.com/object-assign/download/object-assign-4.1.1.tgz}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /once@1.4.0:
+    resolution: {integrity: sha1-WDsap3WWHUsROsF9nFC6753Xa9E=, tarball: http://registry.npm.release.ctripcorp.com/once/download/once-1.4.0.tgz}
+    dependencies:
+      wrappy: 1.0.2
+    dev: false
+
+  /onetime@5.1.2:
+    resolution: {integrity: sha1-0Oluu1awdHbfHdnEgG5SN5hcpF4=, tarball: http://registry.npm.release.ctripcorp.com/onetime/download/onetime-5.1.2.tgz}
+    engines: {node: '>=6'}
+    dependencies:
+      mimic-fn: 2.1.0
+    dev: false
+
+  /ora@8.0.1:
+    resolution: {integrity: sha1-bcuSUKYpZCy+DS3zpjMa1veirz4=, tarball: http://registry.npm.release.ctripcorp.com/ora/download/ora-8.0.1.tgz}
+    engines: {node: '>=18'}
+    dependencies:
+      chalk: 5.3.0
+      cli-cursor: 4.0.0
+      cli-spinners: 2.9.2
+      is-interactive: 2.0.0
+      is-unicode-supported: 2.0.0
+      log-symbols: 6.0.0
+      stdin-discarder: 0.2.2
+      string-width: 7.2.0
+      strip-ansi: 7.1.0
+    dev: false
+
+  /p-cancelable@0.4.1:
+    resolution: {integrity: sha1-NfNj1n1SCByNlYXje8zrfgu8sqA=, tarball: http://registry.npm.release.ctripcorp.com/p-cancelable/download/p-cancelable-0.4.1.tgz}
+    engines: {node: '>=4'}
+    dev: false
+
+  /p-event@2.3.1:
+    resolution: {integrity: sha1-WWJ57xaassPgyuiMHPuwgHmZPvY=, tarball: http://registry.npm.release.ctripcorp.com/p-event/download/p-event-2.3.1.tgz}
+    engines: {node: '>=6'}
+    dependencies:
+      p-timeout: 2.0.1
+    dev: false
+
+  /p-finally@1.0.0:
+    resolution: {integrity: sha1-P7z7FbiZpEEjs0ttzBi3JDNqLK4=, tarball: http://registry.npm.release.ctripcorp.com/p-finally/download/p-finally-1.0.0.tgz}
+    engines: {node: '>=4'}
+    dev: false
+
+  /p-is-promise@1.1.0:
+    resolution: {integrity: sha1-nJRWmJ6fZYgBewQ01WCXZ1w9oF4=, tarball: http://registry.npm.release.ctripcorp.com/p-is-promise/download/p-is-promise-1.1.0.tgz}
+    engines: {node: '>=4'}
+    dev: false
+
+  /p-timeout@2.0.1:
+    resolution: {integrity: sha1-2N0ZeVldLcATnh/ka4tkbLPN8Dg=, tarball: http://registry.npm.release.ctripcorp.com/p-timeout/download/p-timeout-2.0.1.tgz}
+    engines: {node: '>=4'}
+    dependencies:
+      p-finally: 1.0.0
+    dev: false
+
+  /path-is-absolute@1.0.1:
+    resolution: {integrity: sha1-F0uSaHNVNP+8es5r9TpanhtcX18=, tarball: http://registry.npm.release.ctripcorp.com/path-is-absolute/download/path-is-absolute-1.0.1.tgz}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /pend@1.2.0:
+    resolution: {integrity: sha1-elfrVQpng/kRUzH89GY9XI4AelA=, tarball: http://registry.npm.release.ctripcorp.com/pend/download/pend-1.2.0.tgz}
+    dev: false
+
+  /pify@2.3.0:
+    resolution: {integrity: sha1-7RQaasBDqEnqWISY59yosVMw6Qw=, tarball: http://registry.npm.release.ctripcorp.com/pify/download/pify-2.3.0.tgz}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /pify@3.0.0:
+    resolution: {integrity: sha1-5aSs0sEB/fPZpNB/DbxNtJ3SgXY=, tarball: http://registry.npm.release.ctripcorp.com/pify/download/pify-3.0.0.tgz}
+    engines: {node: '>=4'}
+    dev: false
+
+  /pinkie-promise@2.0.1:
+    resolution: {integrity: sha1-ITXW36ejWMBprJsXh3YogihFD/o=, tarball: http://registry.npm.release.ctripcorp.com/pinkie-promise/download/pinkie-promise-2.0.1.tgz}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      pinkie: 2.0.4
+    dev: false
+
+  /pinkie@2.0.4:
+    resolution: {integrity: sha1-clVrgM+g1IqXToDnckjoDtT3+HA=, tarball: http://registry.npm.release.ctripcorp.com/pinkie/download/pinkie-2.0.4.tgz}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /prepend-http@2.0.0:
+    resolution: {integrity: sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc=, tarball: http://registry.npm.release.ctripcorp.com/prepend-http/download/prepend-http-2.0.0.tgz}
+    engines: {node: '>=4'}
+    dev: false
+
+  /process-nextick-args@2.0.1:
+    resolution: {integrity: sha1-eCDZsWEgzFXKmud5JoCufbptf+I=, tarball: http://registry.npm.release.ctripcorp.com/process-nextick-args/download/process-nextick-args-2.0.1.tgz}
+    dev: false
+
+  /proto-list@1.2.4:
+    resolution: {integrity: sha1-IS1b/hMYMGpCD2QCuOJv85ZHqEk=, tarball: http://registry.npm.release.ctripcorp.com/proto-list/download/proto-list-1.2.4.tgz}
+    dev: false
+
+  /query-string@5.1.1:
+    resolution: {integrity: sha1-p4wBK3HBfgXy4/ojGd0zBoLvs8s=, tarball: http://registry.npm.release.ctripcorp.com/query-string/download/query-string-5.1.1.tgz}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      decode-uri-component: 0.2.2
+      object-assign: 4.1.1
+      strict-uri-encode: 1.1.0
+    dev: false
+
+  /readable-stream@2.3.8:
+    resolution: {integrity: sha1-kRJegEK7obmIf0k0X2J3Anzovps=, tarball: http://registry.npm.release.ctripcorp.com/readable-stream/download/readable-stream-2.3.8.tgz}
+    dependencies:
+      core-util-is: 1.0.3
+      inherits: 2.0.4
+      isarray: 1.0.0
+      process-nextick-args: 2.0.1
+      safe-buffer: 5.1.2
+      string_decoder: 1.1.1
+      util-deprecate: 1.0.2
+    dev: false
+
+  /responselike@1.0.2:
+    resolution: {integrity: sha1-kYcg7ztjHFZCvgaPFa3lpG9Loec=, tarball: http://registry.npm.release.ctripcorp.com/responselike/download/responselike-1.0.2.tgz}
+    dependencies:
+      lowercase-keys: 1.0.1
+    dev: false
+
+  /restore-cursor@4.0.0:
+    resolution: {integrity: sha1-UZVgpDGJdQlt725gnUQQDtqkzLk=, tarball: http://registry.npm.release.ctripcorp.com/restore-cursor/download/restore-cursor-4.0.0.tgz}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+    dependencies:
+      onetime: 5.1.2
+      signal-exit: 3.0.7
+    dev: false
+
+  /rimraf@3.0.2:
+    resolution: {integrity: sha1-8aVAK6YiCtUswSgrrBrjqkn9Bho=, tarball: http://registry.npm.release.ctripcorp.com/rimraf/download/rimraf-3.0.2.tgz}
+    deprecated: Rimraf versions prior to v4 are no longer supported
+    hasBin: true
+    dependencies:
+      glob: 7.2.3
+    dev: false
+
+  /safe-buffer@5.1.2:
+    resolution: {integrity: sha1-mR7GnSluAxN0fVm9/St0XDX4go0=, tarball: http://registry.npm.release.ctripcorp.com/safe-buffer/download/safe-buffer-5.1.2.tgz}
+    dev: false
+
+  /safe-buffer@5.2.1:
+    resolution: {integrity: sha1-Hq+fqb2x/dTsdfWPnNtOa3gn7sY=, tarball: http://registry.npm.release.ctripcorp.com/safe-buffer/download/safe-buffer-5.2.1.tgz}
+    dev: false
+
+  /seek-bzip@1.0.6:
+    resolution: {integrity: sha1-NcQXH1WmgJFrUqB4WezztYV/IcQ=, tarball: http://registry.npm.release.ctripcorp.com/seek-bzip/download/seek-bzip-1.0.6.tgz}
+    hasBin: true
+    dependencies:
+      commander: 2.20.3
+    dev: false
+
+  /signal-exit@3.0.7:
+    resolution: {integrity: sha1-qaF2f4r4QVURTqq9c/mSc8j1mtk=, tarball: http://registry.npm.release.ctripcorp.com/signal-exit/download/signal-exit-3.0.7.tgz}
+    dev: false
+
+  /sort-keys-length@1.0.1:
+    resolution: {integrity: sha1-nLb09OnkgVWmqgZx7dM2/xR5oYg=, tarball: http://registry.npm.release.ctripcorp.com/sort-keys-length/download/sort-keys-length-1.0.1.tgz}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      sort-keys: 1.1.2
+    dev: false
+
+  /sort-keys@1.1.2:
+    resolution: {integrity: sha1-RBttTTRnmPG05J6JIK37oOVD+a0=, tarball: http://registry.npm.release.ctripcorp.com/sort-keys/download/sort-keys-1.1.2.tgz}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      is-plain-obj: 1.1.0
+    dev: false
+
+  /sort-keys@2.0.0:
+    resolution: {integrity: sha1-ZYU1WEhh7JfXMNbPQYIuH1ZoQSg=, tarball: http://registry.npm.release.ctripcorp.com/sort-keys/download/sort-keys-2.0.0.tgz}
+    engines: {node: '>=4'}
+    dependencies:
+      is-plain-obj: 1.1.0
+    dev: false
+
+  /stdin-discarder@0.2.2:
+    resolution: {integrity: sha1-OQA39ExK4aGuU1xf443Dq6jZl74=, tarball: http://registry.npm.release.ctripcorp.com/stdin-discarder/download/stdin-discarder-0.2.2.tgz}
+    engines: {node: '>=18'}
+    dev: false
+
+  /strict-uri-encode@1.1.0:
+    resolution: {integrity: sha1-J5siXfHVgrH1TmWt3UNS4Y+qBxM=, tarball: http://registry.npm.release.ctripcorp.com/strict-uri-encode/download/strict-uri-encode-1.1.0.tgz}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /string-width@7.2.0:
+    resolution: {integrity: sha1-tbuOIWXOJ11NQ0dt0nAK2Qkdttw=, tarball: http://registry.npm.release.ctripcorp.com/string-width/download/string-width-7.2.0.tgz}
+    engines: {node: '>=18'}
+    dependencies:
+      emoji-regex: 10.3.0
+      get-east-asian-width: 1.2.0
+      strip-ansi: 7.1.0
+    dev: false
+
+  /string_decoder@1.1.1:
+    resolution: {integrity: sha1-nPFhG6YmhdcDCunkujQUnDrwP8g=, tarball: http://registry.npm.release.ctripcorp.com/string_decoder/download/string_decoder-1.1.1.tgz}
+    dependencies:
+      safe-buffer: 5.1.2
+    dev: false
+
+  /strip-ansi@7.1.0:
+    resolution: {integrity: sha1-1bZWjKaJ2FYTcLBwdoXSJDT6/0U=, tarball: http://registry.npm.release.ctripcorp.com/strip-ansi/download/strip-ansi-7.1.0.tgz}
+    engines: {node: '>=12'}
+    dependencies:
+      ansi-regex: 6.0.1
+    dev: false
+
+  /strip-dirs@2.1.0:
+    resolution: {integrity: sha1-SYdzYmT8NEzyD2w0rKnRPR1O1sU=, tarball: http://registry.npm.release.ctripcorp.com/strip-dirs/download/strip-dirs-2.1.0.tgz}
+    dependencies:
+      is-natural-number: 4.0.1
+    dev: false
+
+  /strip-outer@1.0.1:
+    resolution: {integrity: sha1-sv0qv2YEudHmATBXGV34Nrip1jE=, tarball: http://registry.npm.release.ctripcorp.com/strip-outer/download/strip-outer-1.0.1.tgz}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      escape-string-regexp: 1.0.5
+    dev: false
+
+  /tar-stream@1.6.2:
+    resolution: {integrity: sha1-jqVdqzeXIlPZqa+Q/c1VmuQ1xVU=, tarball: http://registry.npm.release.ctripcorp.com/tar-stream/download/tar-stream-1.6.2.tgz}
+    engines: {node: '>= 0.8.0'}
+    dependencies:
+      bl: 1.2.3
+      buffer-alloc: 1.2.0
+      end-of-stream: 1.4.4
+      fs-constants: 1.0.0
+      readable-stream: 2.3.8
+      to-buffer: 1.1.1
+      xtend: 4.0.2
+    dev: false
+
+  /through@2.3.8:
+    resolution: {integrity: sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=, tarball: http://registry.npm.release.ctripcorp.com/through/download/through-2.3.8.tgz}
+    dev: false
+
+  /timed-out@4.0.1:
+    resolution: {integrity: sha1-8y6srFoXW+ol1/q1Zas+2HQe9W8=, tarball: http://registry.npm.release.ctripcorp.com/timed-out/download/timed-out-4.0.1.tgz}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /to-buffer@1.1.1:
+    resolution: {integrity: sha1-STvUj2LXxD/N7TE6A9ytsuEhOoA=, tarball: http://registry.npm.release.ctripcorp.com/to-buffer/download/to-buffer-1.1.1.tgz}
+    dev: false
+
+  /trim-repeated@1.0.0:
+    resolution: {integrity: sha1-42RqLqTokTEr9+rObPsFOAvAHCE=, tarball: http://registry.npm.release.ctripcorp.com/trim-repeated/download/trim-repeated-1.0.0.tgz}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      escape-string-regexp: 1.0.5
+    dev: false
+
+  /tunnel-agent@0.6.0:
+    resolution: {integrity: sha1-J6XeoGs2sEoKmWZ3SykIaPD8QP0=, tarball: http://registry.npm.release.ctripcorp.com/tunnel-agent/download/tunnel-agent-0.6.0.tgz}
+    dependencies:
+      safe-buffer: 5.2.1
+    dev: false
+
+  /unbzip2-stream@1.4.3:
+    resolution: {integrity: sha1-sNoExDcTEd93HNwhXofyEwmRrOc=, tarball: http://registry.npm.release.ctripcorp.com/unbzip2-stream/download/unbzip2-stream-1.4.3.tgz}
+    dependencies:
+      buffer: 5.7.1
+      through: 2.3.8
+    dev: false
+
+  /undici-types@5.26.5:
+    resolution: {integrity: sha1-vNU5iT0AtW6WT9JlekhmsiGmVhc=, tarball: http://registry.npm.release.ctripcorp.com/undici-types/download/undici-types-5.26.5.tgz}
+    dev: false
+
+  /universalify@2.0.1:
+    resolution: {integrity: sha1-Fo78IYCWTmOG0GHglN9hr+I5sY0=, tarball: http://registry.npm.release.ctripcorp.com/universalify/download/universalify-2.0.1.tgz}
+    engines: {node: '>= 10.0.0'}
+    dev: false
+
+  /url-parse-lax@3.0.0:
+    resolution: {integrity: sha1-FrXK/Afb42dsGxmZF3gj1lA6yww=, tarball: http://registry.npm.release.ctripcorp.com/url-parse-lax/download/url-parse-lax-3.0.0.tgz}
+    engines: {node: '>=4'}
+    dependencies:
+      prepend-http: 2.0.0
+    dev: false
+
+  /url-to-options@1.0.1:
+    resolution: {integrity: sha1-FQWgOiiaSMvXpDTvuu7FBV9WM6k=, tarball: http://registry.npm.release.ctripcorp.com/url-to-options/download/url-to-options-1.0.1.tgz}
+    engines: {node: '>= 4'}
+    dev: false
+
+  /util-deprecate@1.0.2:
+    resolution: {integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=, tarball: http://registry.npm.release.ctripcorp.com/util-deprecate/download/util-deprecate-1.0.2.tgz}
+    dev: false
+
+  /wrappy@1.0.2:
+    resolution: {integrity: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=, tarball: http://registry.npm.release.ctripcorp.com/wrappy/download/wrappy-1.0.2.tgz}
+    dev: false
+
+  /xtend@4.0.2:
+    resolution: {integrity: sha1-u3J3n1+kZRhrH0OPZ0+jR/2121Q=, tarball: http://registry.npm.release.ctripcorp.com/xtend/download/xtend-4.0.2.tgz}
+    engines: {node: '>=0.4'}
+    dev: false
+
+  /yauzl@2.10.0:
+    resolution: {integrity: sha1-x+sXyT4RLLEIb6bY5R+wZnt5pfk=, tarball: http://registry.npm.release.ctripcorp.com/yauzl/download/yauzl-2.10.0.tgz}
+    dependencies:
+      buffer-crc32: 0.2.13
+      fd-slicer: 1.1.0
+    dev: false
