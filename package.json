@@ -1,11 +1,8 @@
 {
   "name": "@lyndon/cli",
   "version": "1.0.0",
-  "description": "In order to be more intelligent in the development. the cli will focus on resolve two problems.",
+  "description": "In order to be more intelligent in the development.",
   "type": "module",
-  "bin": {
-    "lyndon": "./bin/lyndon.js"
-  },
   "author": {
     "name": "lyndon.",
     "email": "wuxianzhi052@gmail.com"
@@ -15,6 +12,9 @@
     "template",
     "toolchain"
   ],
+  "bin": {
+    "lyndon": "./bin/lyndon.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
