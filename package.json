@@ -13,7 +13,7 @@
     "toolchain"
   ],
   "bin": {
-    "lyndon": "./bin/lyndon.js"
+    "lyndon": "bin/lyndon.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
